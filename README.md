@@ -1,7 +1,7 @@
 # bdf2h
 Create a C header file containing data from a bdf monospace font file
 
-Usage: bdf2h <input_bdf_file> <output_h_file> <max_character_encoding>
+Usage: bdf2h input_bdf_file output_h_file max_character_encoding
 
 max_character_encoding permit to stop before the end of file.
 It is not the number of characters read, but the encoding number at which to stop.
